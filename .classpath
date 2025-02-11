@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/kotlin">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test,client"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test,client"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/client" kind="src" path="src/client/kotlin">
+		<attributes>
+			<attribute name="gradle_scope" value="client"/>
+			<attribute name="gradle_used_by_scope" value="test,client"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/client" kind="src" path="src/client/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="client"/>
+			<attribute name="gradle_used_by_scope" value="test,client"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21/"/>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/2.1.10/114750c3625f9fdfb6dd568add7b3629d2c52627/kotlin-stdlib-jdk8-2.1.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/2.1.10/3009fa6a21ebb400fe38c70eaf218a0c669ddbe2/kotlin-stdlib-jdk8-2.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/2.1.10/19a55005faf474d4021b61d617693e462c17aa54/kotlin-stdlib-jdk7-2.1.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/2.1.10/c9d8cb43c1d65c500ffbbb6eb591b9c8928caf6d/kotlin-stdlib-jdk7-2.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.1.10/7175b5de8ceb04e496bdc45c6fd9e33631737e34/kotlin-stdlib-2.1.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.1.10/d3028429e7151d7a7c1a0d63a4f60eac86a87b91/kotlin-stdlib-2.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/64af7d00c1e23d847a7dbfe874f7eafe1e4595d7/annotations-25.0.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/c1e6b966db352094ac3bf7f88f3bdef332fe43f0/annotations-25.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7.1/eed93b6cd5ba28fe09a6a11d08f62a3c0d4817ec/asm-9.7.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7.1/f0ed132a49244b042cd0e15702ab9f2ce3cc8436/asm-9.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7.1/1b8917a7ab1defa8f99446d755286ca1c9d05116/asm-analysis-9.7.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7.1/f97a3b319f0ed6a8cd944dc79060d3912a28985f/asm-analysis-9.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7.1/49977bde316395824ded9e8e4deead6512f3c88/asm-commons-9.7.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7.1/406c6a2225cfe1819f102a161e54cc16a5c24f75/asm-commons-9.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7.1/d51ed23b9b4d0e222d0a0cacaf6296e8a009d81b/asm-tree-9.7.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7.1/3a53139787663b139de76b627fca0084ab60d32c/asm-tree-9.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.7.1/add7a8d74bcdb2be51a20d574b15c9e38f5ba65f/asm-util-9.7.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.7.1/9e23359b598ec6b74b23e53110dd5c577adf2243/asm-util-9.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/30197020258391a3fe4b647afe2e25953ae836ac/sponge-mixin-0.15.3+mixin.0.8.7-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-fabric/0.4.1/87dac919b1e1689e306040ee5511a0a45177601f/mixinextras-fabric-0.4.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-fabric/0.4.1/8d1a9e96afb990367fa1f904d17580d164da72e3/mixinextras-fabric-0.4.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.4/f6b8a8daa9bcf7ece61c673e53f5d00b9e92e70e/jackson-annotations-2.13.4-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.4/858c6cc78e1f08a885b1613e1d817c829df70a6e/jackson-annotations-2.13.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.4/dd8da2766363ea64383d1344349acce91d5a5469/jackson-core-2.13.4-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.4/cf934c681294b97ef6d80082faeefbe1edadf56/jackson-core-2.13.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.4.2/99771ed18f5059ca6b4fb51142d7aa4a2eba9002/jackson-databind-2.13.4.2-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.4.2/325c06bdfeb628cfb80ebaaf1a26cc1eb558a585/jackson-databind-2.13.4.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.6.5/8be7bb74b13ca86e9f3cdc3a809d77771f7d0062/oshi-core-6.6.5-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.6.5/e1099981fd15dc4236c4499d82aba1276fb43a9a/oshi-core-6.6.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.github.stephenc.jcip/jcip-annotations/1.0-1/2064ac5ff426f3c02656aedc317952b82463782f/jcip-annotations-1.0-1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.github.stephenc.jcip/jcip-annotations/1.0-1/ef31541dd28ae2cefdd17c7ebf352d93e9058c63/jcip-annotations-1.0-1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.11.0/bbd772a8634d3d6fea7ffea693535a4bd1c773c0/gson-2.11.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.11.0/527175ca6d81050b53bdd4c457a6d6e017626b0e/gson-2.11.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/6acdafcf2dfc3b548e59dd3a4b454552aeb6ff65/failureaccess-1.0.2-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/c4a06a64e650562f30b7bf9aaec1bfed43aca12b/failureaccess-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.1-jre/e788c9bc41ef2bcbb89794f793da9b576b5dde38/guava-33.3.1-jre-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.1-jre/852f8b363da0111e819460021ca693cacca3e8db/guava-33.3.1-jre.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/76.1/da9098d9fdb0db117bd80a46ec872574cca71844/icu4j-76.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/76.1/215f3a8e936d4069344bd75f2b1368fd58112894/icu4j-76.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/msal4j/1.17.2/dfc737bc41b4570e2da52be203b3d4a4b35bea33/msal4j-1.17.2-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/msal4j/1.17.2/a6211e3d71d0388929babaa0ff0951b30d001852/msal4j-1.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/6.0.57/364b61163512d4086bb3cd034d6f4068652a69ff/authlib-6.0.57-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/6.0.57/bded3161a7346de32213da750388ec6529fe4f6b/authlib-6.0.57.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/ef44852fa1707a833bfa8e8518659ab18f368d25/blocklist-1.0.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.3.10/d4b579a2b795ff6bfe5eb02760a2748d29addd2e/brigadier-1.3.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.3.10/d15b53a14cf20fdcaa98f731af5dda654452c010/brigadier-1.3.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/8.0.16/1482506562a012761c60594c23f6bcbeb0d354a3/datafixerupper-8.0.16-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/8.0.16/67d4de6d7f95d89bcf5862995fb854ebaec02a34/datafixerupper-8.0.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/jtracy/1.0.29/335f3d8b2db1fd977b541c7e7a25133e5e10f1d1/jtracy-1.0.29-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/jtracy/1.0.29/6f07dcb6a2e595c7ee2ca43b67e5d1c018ca0770/jtracy-1.0.29.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/logging/1.5.10/cf41b5ead0d671bc70afd981fc4be9ede5dacb14/logging-1.5.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/logging/1.5.10/9ab1202793717af9df9c1704d0a02892067001eb/logging-1.5.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/2.2.10/da05971b07cbb379d002cf7eaec6a2048211fefc/patchy-2.2.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.17.9/1898fbfd00a552b7f9a3cc0438623845a91e74ed/text2speech-1.17.9-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.17.9/3cad216e3a7f0c19b4b394388bc9ffc446f13b14/text2speech-1.17.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/content-type/2.3/353fffcaafbd9624e6e13af3f74aa772ccfe30ef/content-type-2.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/content-type/2.3/e3aa0be212d7a42839a8f3f506f5b990bcce0222/content-type-2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.7/8ebac7ea14da04f2c11ab3e56583abe246346477/lang-tag-1.7-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.7/97c73ecd70bc7e8eefb26c5eea84f251a63f1031/lang-tag-1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/9.40/1454a59e5d91f70fdafeab83d4d395379947ca3c/nimbus-jose-jwt-9.40-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/9.40/42b1dfa0360e4062951b070bac52dd8d96fd7b38/nimbus-jose-jwt-9.40.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/11.18/d96bef00c004c72a622163cbc7ece51ed4b27cc9/oauth2-oidc-sdk-11.18-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/11.18/7c7ec4f4066625ff07a711ad856fa04da1ff9de/oauth2-oidc-sdk-11.18.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.17.1/335f6edc3ea89bb9ed0febd6685aff864dc8f4d4/commons-codec-1.17.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.17.1/973638b7149d333563584137ebf13a691bb60579/commons-codec-1.17.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.17.0/28415dc64e3a2e8a90751fd59a21bad0fe5681dc/commons-io-2.17.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.17.0/ddcc8433eb019fb48fe25207c0278143f3e1d7e2/commons-io-2.17.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.3.4/48ab26b05c0754956d581057288286b2bd9a6e9c/commons-logging-1.3.4-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.3.4/b9fc14968d63a8b8a8a2c1885fe3e90564239708/commons-logging-1.3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.115.Final/226b90dca14bedb0694f47495299223c787a19f5/netty-buffer-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.115.Final/d5daf1030e5c36d198caf7562da2441a97ec0df6/netty-buffer-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.115.Final/6e2a1142a2fc7359328cea1da6f1791027db2db5/netty-codec-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.115.Final/d326bf3a4c785b272da3db6941779a1bd5448378/netty-codec-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.115.Final/dc36e7504be795625209cd3278941d8f9c7d491e/netty-common-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.115.Final/9da10a9f72e3f87e181d91b525174007a6fc4f11/netty-common-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.115.Final/d6eb52acb90448247e61b09941b3f42e5ececd41/netty-handler-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.115.Final/d54dbf68b9d88a98240107758c6b63da5e46e23a/netty-handler-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.115.Final/2110f88791aad08bf4d7978af88b4a3c6cca57e/netty-resolver-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.115.Final/e33b4d476c03975957f5d8d0319d592bf2bc5e96/netty-resolver-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.115.Final/b1d168fdfb040d32e97146b697ce802746ca2257/netty-transport-classes-epoll-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.115.Final/11fea00408ecbd8b8d1f0698d708e37db4a01841/netty-transport-classes-epoll-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.115.Final/4f3bc73fcf121303e677320939f841044d41fc9a/netty-transport-native-unix-common-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.115.Final/dc96c67d06cd6b5eb677f2728f27bf2e3d9a7284/netty-transport-native-unix-common-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.115.Final/66a1c21981b2074e9fe26eb8652381365cf18140/netty-transport-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.115.Final/39cef77c1a25908ac1abf4960c2e789f0bf70ff9/netty-transport-4.1.115.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.15/823800c6463db95d464e8a4ab3ce5898028b45f8/fastutil-8.5.15-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.15/1e885b40c9563ab0d3899b871fd0b30e958705dc/fastutil-8.5.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.15.0/712d5f4d00130b3727a653dc3aca63921fab671f/jna-platform-5.15.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.15.0/86b502cad57d45da172b5e3231c537b042e296ef/jna-platform-5.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.15.0/f84631ed8ab3610424139df0baf36a0756336e8d/jna-5.15.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.15.0/1ee1d80ff44f08280188f7c0e740d57207841ac/jna-5.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.5.1/1301d502f3d849f1966e56acdc446436dab8b504/accessors-smart-2.5.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.5.1/19b820261eb2e7de7d5bde11d1c06e4501dd7e5f/accessors-smart-2.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.5.1/45abd4dda57f72e56d16aefc4d895a311afd751b/json-smart-2.5.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.5.1/4c11d2808d009132dfbbf947ebf37de6bf266c8e/json-smart-2.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/950831646d014c9162999019a3cb17d5fc01ac0d/jopt-simple-5.0.4-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.27.1/c90678c885e13d0c2ea971f05f8fc15004906d0f/commons-compress-1.27.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.27.1/a19151084758e2fbb6b41eddaa88e7b8ff4e6599/commons-compress-1.27.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.17.0/f409092a9f723034a839327029255900a19742b4/commons-lang3-3.17.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.17.0/b17d2136f0460dcc0d2016ceefca8723bdf4ee70/commons-lang3-3.17.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/14321a360aa0e037c56d4c820747a84954d9196e/httpclient-4.5.14-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/1194890e6f56ec29177673f2f12d0b8e627dec98/httpclient-4.5.14.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/229e4c0eae80465381ae02adf61bca5558360777/httpcore-4.4.16-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.24.1/63358d6542d9a55f2ff3e78aa19b7f8729101220/log4j-api-2.24.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.24.1/7ebeb12c20606373005af4232cd0ecca72613dda/log4j-api-2.24.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.24.1/f5a5261c171329e63f3f0888202f0ed23ab0390a/log4j-core-2.24.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.24.1/c85285146f28d8c8962384f786e2dff04172fb43/log4j-core-2.24.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j2-impl/2.24.1/c43f57c4a1d1a6ddc15e3d7d00dbd548cbbc6f14/log4j-slf4j2-impl-2.24.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j2-impl/2.24.1/8e3ddc96464ef7f768823e7e001a52b23de8cd0a/log4j-slf4j2-impl-2.24.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jcraft/jorbis/0.0.17/5446be5d62e4c6b347c8e6cd28dc00a936417ba2/jorbis-0.0.17-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jcraft/jorbis/0.0.17/8872d22b293e8f5d7d56ff92be966e6dc28ebdc6/jorbis-0.0.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.10.8/3fa7a5a8a5119d23dbe3402f6ffa3df1b3d9598e/joml-1.10.8-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.10.8/fc0a71dad90a2cf41d82a76156a0e700af8e4f8d/joml-1.10.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/d9fba96328a80677edbab28a843f33b847cf1e57/lwjgl-freetype-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/a0db6c84a8becc8ca05f9dbfa985edc348a824c7/lwjgl-freetype-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/fa2c760452674d3eaf336123539b0dd9a83041a4/lwjgl-glfw-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/efa1eb78c5ccd840e9f329717109b5e892d72f8e/lwjgl-glfw-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/6a4ea7a9095e1684a9c6adb2c49d28daae2b6e45/lwjgl-jemalloc-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/b543467b7ff3c6920539a88ee602d34098628be5/lwjgl-jemalloc-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/60a4ce24d71b3376ce53b50cfe3eaaf3277dd727/lwjgl-openal-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/daada81ceb5fc0c291fbfdd4433cb8d9423577f2/lwjgl-openal-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/3353d0b2cac91b84088b01711d33cc403893450b/lwjgl-opengl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/2f6b0147078396a58979125a4c947664e98293a/lwjgl-opengl-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/37c2b604ec4a5ee356dd734dc8167a193e8874ed/lwjgl-stb-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/25dd6161988d7e65f71d5065c99902402ee32746/lwjgl-stb-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/dcda55223f2f940654d222bf4371baa969c60bb9/lwjgl-tinyfd-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/82d755ca94b102e9ca77283b9e2dc46d1b15fbe5/lwjgl-tinyfd-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e5949c7bbf4f839afe6d1a631e9b75f63c559e0/lwjgl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.8.0/7609c362f37f0c0bd3743bc1976df2daa28ad19e/lz4-java-1.8.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.8.0/4b986a99445e49ea5fbf5d149c4b63f6ed6c6780/lz4-java-1.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/68223612de5e53b90b752bbbe520390ae1f104db/slf4j-api-2.0.16-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-abba00472f/1.21.4-loom.mappings.1_21_4.layered+hash.2198-v2/minecraft-clientOnly-abba00472f-1.21.4-loom.mappings.1_21_4.layered+hash.2198-v2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-abba00472f/1.21.4-loom.mappings.1_21_4.layered+hash.2198-v2/minecraft-common-abba00472f-1.21.4-loom.mappings.1_21_4.layered+hash.2198-v2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.115.Final/4f5daf6299f00f8eff69c416016c03631e01fef4/netty-transport-native-epoll-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.115.Final/a6cc58c4a259bad159cbb06120cea9b3474e86a0/netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.115.Final/4f5daf6299f00f8eff69c416016c03631e01fef4/netty-transport-native-epoll-4.1.115.Final-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.115.Final/a80b32f98ceb4e27958c0ceaf22ddad9ea6c0d4e/netty-transport-native-epoll-4.1.115.Final-linux-aarch_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-client/5.4.9+efa825c904/fabric-transfer-api-v1-client-5.4.9+efa825c904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-client/5.4.9+efa825c904/fabric-transfer-api-v1-client-5.4.9+efa825c904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-client/2.0.8+7feeb73304/fabric-blockrenderlayer-v1-client-2.0.8+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-client/2.0.8+7feeb73304/fabric-blockrenderlayer-v1-client-2.0.8+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1-client/1.1.29+20ea1e2304/fabric-client-tags-api-v1-client-1.1.29+20ea1e2304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1-client/1.1.29+20ea1e2304/fabric-client-tags-api-v1-client-1.1.29+20ea1e2304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-command-api-v2-client/2.2.41+e496eb1504/fabric-command-api-v2-client-2.2.41+e496eb1504-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-command-api-v2-client/2.2.41+e496eb1504/fabric-command-api-v2-client-2.2.41+e496eb1504.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-client/22.2.10+20ea1e2304/fabric-data-generation-api-v1-client-22.2.10+20ea1e2304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-client/22.2.10+20ea1e2304/fabric-data-generation-api-v1-client-22.2.10+20ea1e2304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-client/1.5.2+2d7e411e04/fabric-data-attachment-api-v1-client-1.5.2+2d7e411e04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-client/1.5.2+2d7e411e04/fabric-data-attachment-api-v1-client-1.5.2+2d7e411e04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-client/4.0.3+a4eebcf004/fabric-events-interaction-v0-client-4.0.3+a4eebcf004-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-client/4.0.3+a4eebcf004/fabric-events-interaction-v0-client-4.0.3+a4eebcf004.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-api-v1-client/11.2.0+42f2d2ba04/fabric-item-api-v1-client-11.2.0+42f2d2ba04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-api-v1-client/11.2.0+42f2d2ba04/fabric-item-api-v1-client-11.2.0+42f2d2ba04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1-client/4.2.0+fcb9601404/fabric-item-group-api-v1-client-4.2.0+fcb9601404-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1-client/4.2.0+fcb9601404/fabric-item-group-api-v1-client-4.2.0+fcb9601404.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-client/2.5.4+bf2a60eb04/fabric-lifecycle-events-v1-client-2.5.4+bf2a60eb04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-client/2.5.4+bf2a60eb04/fabric-lifecycle-events-v1-client-2.5.4+bf2a60eb04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-message-api-v1-client/6.0.25+7feeb73304/fabric-message-api-v1-client-6.0.25+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-message-api-v1-client/6.0.25+7feeb73304/fabric-message-api-v1-client-6.0.25+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1-client/4.3.0+ae23723504/fabric-model-loading-api-v1-client-4.3.0+ae23723504-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1-client/4.3.0+ae23723504/fabric-model-loading-api-v1-client-4.3.0+ae23723504.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-client/8.0.9+160b66fa04/fabric-recipe-api-v1-client-8.0.9+160b66fa04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-client/8.0.9+160b66fa04/fabric-recipe-api-v1-client-8.0.9+160b66fa04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-client/1.3.115+7feeb73304/fabric-screen-handler-api-v1-client-1.3.115+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-client/1.3.115+7feeb73304/fabric-screen-handler-api-v1-client-1.3.115+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-client/6.1.8+742bac2904/fabric-registry-sync-v0-client-6.1.8+742bac2904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-client/6.1.8+742bac2904/fabric-registry-sync-v0-client-6.1.8+742bac2904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-client/4.3.10+8998135104/fabric-networking-api-v1-client-4.3.10+8998135104-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-client/4.3.10+8998135104/fabric-networking-api-v1-client-4.3.10+8998135104.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-client/18.0.11+7d48d43904/fabric-object-builder-api-v1-client-18.0.11+7d48d43904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-client/18.0.11+7d48d43904/fabric-object-builder-api-v1-client-18.0.11+7d48d43904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-particles-v1-client/4.0.14+7feeb73304/fabric-particles-v1-client-4.0.14+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-particles-v1-client/4.0.14+7feeb73304/fabric-particles-v1-client-4.0.14+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-renderer-indigo-client/2.0.3+50f0feb204/fabric-renderer-indigo-client-2.0.3+50f0feb204-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-renderer-indigo-client/2.0.3+50f0feb204/fabric-renderer-indigo-client-2.0.3+50f0feb204.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1-client/5.0.3+50f0feb204/fabric-renderer-api-v1-client-5.0.3+50f0feb204-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1-client/5.0.3+50f0feb204/fabric-renderer-api-v1-client-5.0.3+50f0feb204.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-client/3.1.19+7feeb73304/fabric-rendering-fluids-v1-client-3.1.19+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-client/3.1.19+7feeb73304/fabric-rendering-fluids-v1-client-3.1.19+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-v1-client/10.2.0+44a0820d04/fabric-rendering-v1-client-10.2.0+44a0820d04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-v1-client/10.2.0+44a0820d04/fabric-rendering-v1-client-10.2.0+44a0820d04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-screen-api-v1-client/2.0.38+7feeb73304/fabric-screen-api-v1-client-2.0.38+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-screen-api-v1-client/2.0.38+7feeb73304/fabric-screen-api-v1-client-2.0.38+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-client/0.3.57+73761d2e04/fabric-rendering-data-attachment-v1-client-0.3.57+73761d2e04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-client/0.3.57+73761d2e04/fabric-rendering-data-attachment-v1-client-0.3.57+73761d2e04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2-client/1.0.19+7feeb73304/fabric-block-view-api-v2-client-1.0.19+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2-client/1.0.19+7feeb73304/fabric-block-view-api-v2-client-1.0.19+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-client-gametest-api-v1-client/4.1.0+44a0820d04/fabric-client-gametest-api-v1-client-4.1.0+44a0820d04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-client-gametest-api-v1-client/4.1.0+44a0820d04/fabric-client-gametest-api-v1-client-4.1.0+44a0820d04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-client/1.0.63+7d48d43904/fabric-game-rule-api-v1-client-1.0.63+7d48d43904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-client/1.0.63+7d48d43904/fabric-game-rule-api-v1-client-1.0.63+7d48d43904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-keybindings-v0-client/0.2.55+df3654b304/fabric-keybindings-v0-client-0.2.55+df3654b304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-keybindings-v0-client/0.2.55+df3654b304/fabric-keybindings-v0-client-0.2.55+df3654b304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1-client/1.0.57+7d48d43904/fabric-key-binding-api-v1-client-1.0.57+7d48d43904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1-client/1.0.57+7d48d43904/fabric-key-binding-api-v1-client-1.0.57+7d48d43904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-client/3.0.14+e359e31604/fabric-resource-loader-v0-client-3.0.14+e359e31604-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-client/3.0.14+e359e31604/fabric-resource-loader-v0-client-3.0.14+e359e31604.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-sound-api-v1-client/1.0.32+7feeb73304/fabric-sound-api-v1-client-1.0.32+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-sound-api-v1-client/1.0.32+7feeb73304/fabric-sound-api-v1-client-1.0.32+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.7/5ec26632c6a589479fa7cdefba11ac93331f30f8/fabric-loader-0.16.7-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.7/18ce52a3228434ba2aa8c1936728ef4eacad64b8/fabric-loader-0.16.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/2.1.10/51d7f50f224fb19314102441e6f760a2264f192d/kotlin-reflect-2.1.10-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/2.1.10/b6dfc50c112d7cd89b350fef16d810c77acae209/kotlin-reflect-2.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.10.1/74e92be780e9795850508800904c9e0eba99a797/kotlinx-coroutines-jdk8-1.10.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.10.1/2175da56877e082a8c4a9d6effa249eddd40af07/kotlinx-coroutines-jdk8-1.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.10.1/acdf84accbb0635d4c0263b987ddf9a79cb6ea77/kotlinx-coroutines-core-jvm-1.10.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.10.1/fe066928754beda3d59c8282e04289546465a360/kotlinx-coroutines-core-jvm-1.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.8.0/fc5bef6d7095648a0dd93b6e4c1eb6be40dad681/kotlinx-serialization-json-jvm-1.8.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.8.0/8253bf6e8c713a3dace54493a838e0f8fd3e08fa/kotlinx-serialization-json-jvm-1.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-cbor-jvm/1.8.0/8cbe08a8d0cbf551f099d6a34d6893a91680f286/kotlinx-serialization-cbor-jvm-1.8.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-cbor-jvm/1.8.0/a60c3590473fb7c80a2e3dfa9b3d1477244ee919/kotlinx-serialization-cbor-jvm-1.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.8.0/2bbd0b5b50d6558bf5fa6884eb0dfe3d732e03c1/kotlinx-serialization-core-jvm-1.8.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.8.0/fe5bb37ab4a3771f14c63e0c333c98bdfeb1d7cc/kotlinx-serialization-core-jvm-1.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.6.1/81702f266e6c890854d9ac5e8c3e76aa7ee17b62/kotlinx-datetime-jvm-0.6.1-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.6.1/23d9f71268d3ffc31ce5a5d25622f20bffb3d639/kotlinx-datetime-jvm-0.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-jvm/0.6.0/43be5d583adcbfe4f717a28b6770d5628dcdae4c/kotlinx-io-core-jvm-0.6.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-jvm/0.6.0/f1d1e496fe0c6937fdb7509442b7f3e613d345d4/kotlinx-io-core-jvm-0.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-jvm/0.6.0/fa5686c74b26c4f1f288000a39f9218322f3ca2a/kotlinx-io-bytestring-jvm-0.6.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-jvm/0.6.0/bb3104eef13622362179216566db2ea6a4e7ed64/kotlinx-io-bytestring-jvm-0.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-jvm/0.27.0/95cc2102d64063398b01f5ffd789fae8c9f45719/atomicfu-jvm-0.27.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-jvm/0.27.0/c67347bbbc14ff9f4308cee5a3d2e5bdac76da21/atomicfu-jvm-0.27.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-language-kotlin/1.13.1+kotlin.2.1.10/fabric-language-kotlin-1.13.1+kotlin.2.1.10-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-language-kotlin/1.13.1+kotlin.2.1.10/fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-api-common/0.116.0+1.21.4/fabric-api-common-0.116.0+1.21.4-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-api-common/0.116.0+1.21.4/fabric-api-common-0.116.0+1.21.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-common/5.4.9+efa825c904/fabric-transfer-api-v1-common-5.4.9+efa825c904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-common/5.4.9+efa825c904/fabric-transfer-api-v1-common-5.4.9+efa825c904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-common/1.6.86+b1caf1e904/fabric-api-lookup-api-v1-common-1.6.86+b1caf1e904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-common/1.6.86+b1caf1e904/fabric-api-lookup-api-v1-common-1.6.86+b1caf1e904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-command-api-v1-common/1.2.62+f71b366f04/fabric-command-api-v1-common-1.2.62+f71b366f04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-command-api-v1-common/1.2.62+f71b366f04/fabric-command-api-v1-common-1.2.62+f71b366f04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-commands-v0-common/0.2.79+df3654b304/fabric-commands-v0-common-0.2.79+df3654b304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-commands-v0-common/0.2.79+df3654b304/fabric-commands-v0-common-0.2.79+df3654b304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-command-api-v2-common/2.2.41+e496eb1504/fabric-command-api-v2-common-2.2.41+e496eb1504-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-command-api-v2-common/2.2.41+e496eb1504/fabric-command-api-v2-common-2.2.41+e496eb1504.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-content-registries-v0-common/9.1.17+7feeb73304/fabric-content-registries-v0-common-9.1.17+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-content-registries-v0-common/9.1.17+7feeb73304/fabric-content-registries-v0-common-9.1.17+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-common/22.2.10+20ea1e2304/fabric-data-generation-api-v1-common-22.2.10+20ea1e2304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-common/22.2.10+20ea1e2304/fabric-data-generation-api-v1-common-22.2.10+20ea1e2304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1-common/2.1.15+7f945d5b04/fabric-convention-tags-v1-common-2.1.15+7f945d5b04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1-common/2.1.15+7f945d5b04/fabric-convention-tags-v1-common-2.1.15+7f945d5b04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-convention-tags-v2-common/2.12.1+e359e31604/fabric-convention-tags-v2-common-2.12.1+e359e31604-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-convention-tags-v2-common/2.12.1+e359e31604/fabric-convention-tags-v2-common-2.12.1+e359e31604.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-common/1.5.2+2d7e411e04/fabric-data-attachment-api-v1-common-1.5.2+2d7e411e04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-common/1.5.2+2d7e411e04/fabric-data-attachment-api-v1-common-1.5.2+2d7e411e04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-common/2.0.13+1934821104/fabric-entity-events-v1-common-2.0.13+1934821104-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-common/2.0.13+1934821104/fabric-entity-events-v1-common-2.0.13+1934821104.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-common/4.0.3+a4eebcf004/fabric-events-interaction-v0-common-4.0.3+a4eebcf004-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-common/4.0.3+a4eebcf004/fabric-events-interaction-v0-common-4.0.3+a4eebcf004.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1-common/2.0.24+7feeb73304/fabric-gametest-api-v1-common-2.0.24+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1-common/2.0.24+7feeb73304/fabric-gametest-api-v1-common-2.0.24+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-api-v1-common/11.2.0+42f2d2ba04/fabric-item-api-v1-common-11.2.0+42f2d2ba04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-api-v1-common/11.2.0+42f2d2ba04/fabric-item-api-v1-common-11.2.0+42f2d2ba04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1-common/4.2.0+fcb9601404/fabric-item-group-api-v1-common-4.2.0+fcb9601404-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1-common/4.2.0+fcb9601404/fabric-item-group-api-v1-common-4.2.0+fcb9601404.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-common/2.5.4+bf2a60eb04/fabric-lifecycle-events-v1-common-2.5.4+bf2a60eb04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-common/2.5.4+bf2a60eb04/fabric-lifecycle-events-v1-common-2.5.4+bf2a60eb04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-loot-api-v2-common/3.0.36+3f89f5a504/fabric-loot-api-v2-common-3.0.36+3f89f5a504-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-loot-api-v2-common/3.0.36+3f89f5a504/fabric-loot-api-v2-common-3.0.36+3f89f5a504.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-loot-api-v3-common/1.0.24+203e6b2304/fabric-loot-api-v3-common-1.0.24+203e6b2304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-loot-api-v3-common/1.0.24+203e6b2304/fabric-loot-api-v3-common-1.0.24+203e6b2304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-message-api-v1-common/6.0.25+7feeb73304/fabric-message-api-v1-common-6.0.25+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-message-api-v1-common/6.0.25+7feeb73304/fabric-message-api-v1-common-6.0.25+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-common/8.0.9+160b66fa04/fabric-recipe-api-v1-common-8.0.9+160b66fa04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-common/8.0.9+160b66fa04/fabric-recipe-api-v1-common-8.0.9+160b66fa04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-common/1.3.115+7feeb73304/fabric-screen-handler-api-v1-common-1.3.115+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-common/1.3.115+7feeb73304/fabric-screen-handler-api-v1-common-1.3.115+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-common/6.1.8+742bac2904/fabric-registry-sync-v0-common-6.1.8+742bac2904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-common/6.1.8+742bac2904/fabric-registry-sync-v0-common-6.1.8+742bac2904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-common/4.3.10+8998135104/fabric-networking-api-v1-common-4.3.10+8998135104-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-common/4.3.10+8998135104/fabric-networking-api-v1-common-4.3.10+8998135104.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-common/18.0.11+7d48d43904/fabric-object-builder-api-v1-common-18.0.11+7d48d43904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-common/18.0.11+7d48d43904/fabric-object-builder-api-v1-common-18.0.11+7d48d43904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-particles-v1-common/4.0.14+7feeb73304/fabric-particles-v1-common-4.0.14+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-particles-v1-common/4.0.14+7feeb73304/fabric-particles-v1-common-4.0.14+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-common/3.1.19+7feeb73304/fabric-rendering-fluids-v1-common-3.1.19+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-common/3.1.19+7feeb73304/fabric-rendering-fluids-v1-common-3.1.19+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-tag-api-v1-common/1.0.5+7d48d43904/fabric-tag-api-v1-common-1.0.5+7d48d43904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-tag-api-v1-common/1.0.5+7d48d43904/fabric-tag-api-v1-common-1.0.5+7d48d43904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-api-base-common/0.4.54+b47eab6b04/fabric-api-base-common-0.4.54+b47eab6b04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-api-base-common/0.4.54+b47eab6b04/fabric-api-base-common-0.4.54+b47eab6b04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-biome-api-v1-common/15.0.6+b1c29d8e04/fabric-biome-api-v1-common-15.0.6+b1c29d8e04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-biome-api-v1-common/15.0.6+b1c29d8e04/fabric-biome-api-v1-common-15.0.6+b1c29d8e04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-block-api-v1-common/1.0.31+7feeb73304/fabric-block-api-v1-common-1.0.31+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-block-api-v1-common/1.0.31+7feeb73304/fabric-block-api-v1-common-1.0.31+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-common/0.3.57+73761d2e04/fabric-rendering-data-attachment-v1-common-0.3.57+73761d2e04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-common/0.3.57+73761d2e04/fabric-rendering-data-attachment-v1-common-0.3.57+73761d2e04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2-common/1.0.19+7feeb73304/fabric-block-view-api-v2-common-1.0.19+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2-common/1.0.19+7feeb73304/fabric-block-view-api-v2-common-1.0.19+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1-common/0.3.6+7feeb73304/fabric-crash-report-info-v1-common-0.3.6+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1-common/0.3.6+7feeb73304/fabric-crash-report-info-v1-common-0.3.6+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-dimensions-v1-common/4.0.10+7feeb73304/fabric-dimensions-v1-common-4.0.10+7feeb73304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-dimensions-v1-common/4.0.10+7feeb73304/fabric-dimensions-v1-common-4.0.10+7feeb73304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-common/1.0.63+7d48d43904/fabric-game-rule-api-v1-common-1.0.63+7d48d43904-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-common/1.0.63+7d48d43904/fabric-game-rule-api-v1-common-1.0.63+7d48d43904.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-common/5.0.13+203e6b2304/fabric-resource-conditions-api-v1-common-5.0.13+203e6b2304-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-common/5.0.13+203e6b2304/fabric-resource-conditions-api-v1-common-5.0.13+203e6b2304.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-common/3.0.14+e359e31604/fabric-resource-loader-v0-common-3.0.14+e359e31604-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-common/3.0.14+e359e31604/fabric-resource-loader-v0-common-3.0.14+e359e31604.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-common/6.3.2+56e78b9b04/fabric-transitive-access-wideners-v1-common-6.3.2+56e78b9b04-sources.jar" kind="lib" path="C:/Users/敖律风/code/event-horizon/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_4_layered_hash_2198_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-common/6.3.2+56e78b9b04/fabric-transitive-access-wideners-v1-common-6.3.2+56e78b9b04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/dev-launch-injector/0.2.1+build.8/da8bef7e6e2f952da707f282bdb46882a0fce5e3/dev-launch-injector-0.2.1+build.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.3.0/2fd4d796402a408af0d26c848e02ec8f91dceae7/terminalconsoleappender-1.3.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.3.0/b562e9bb61235c9520e26282cdee71f8f802d1fc/terminalconsoleappender-1.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/jtracy/1.0.29/335f3d8b2db1fd977b541c7e7a25133e5e10f1d1/jtracy-1.0.29-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/com.mojang/jtracy/1.0.29/e05332cb31c7ae582dc8d8bd1bffd47c2ff7636f/jtracy-1.0.29-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/d9fba96328a80677edbab28a843f33b847cf1e57/lwjgl-freetype-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/81091b006dbb43fab04c8c638e9ac87c51b4096d/lwjgl-freetype-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/d9fba96328a80677edbab28a843f33b847cf1e57/lwjgl-freetype-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/82028265a0a2ff33523ca75137ada7dc176e5210/lwjgl-freetype-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/d9fba96328a80677edbab28a843f33b847cf1e57/lwjgl-freetype-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/15a8c1de7f51d07a92eae7ce1222557073a0c0c3/lwjgl-freetype-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/fa2c760452674d3eaf336123539b0dd9a83041a4/lwjgl-glfw-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/e449e28b4891fc423c54c85fbc5bb0b9efece67a/lwjgl-glfw-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/fa2c760452674d3eaf336123539b0dd9a83041a4/lwjgl-glfw-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/f27018dc74f6289574502b46cce55d52817554e2/lwjgl-glfw-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/fa2c760452674d3eaf336123539b0dd9a83041a4/lwjgl-glfw-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/32334f3fd5270a59bad9939a93115acb6de36dcf/lwjgl-glfw-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/6a4ea7a9095e1684a9c6adb2c49d28daae2b6e45/lwjgl-jemalloc-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/426222fc027602a5f21b9c0fe79cde6a4c7a011f/lwjgl-jemalloc-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/6a4ea7a9095e1684a9c6adb2c49d28daae2b6e45/lwjgl-jemalloc-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/ba1f3fed0ee4be0217eaa41c5bbfb4b9b1383c33/lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/6a4ea7a9095e1684a9c6adb2c49d28daae2b6e45/lwjgl-jemalloc-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.3/f6063b6e0f23be483c5c88d84ce51b39dc69126c/lwjgl-jemalloc-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/60a4ce24d71b3376ce53b50cfe3eaaf3277dd727/lwjgl-openal-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/cf83862ae95d98496b26915024c7e666d8ab1c8f/lwjgl-openal-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/60a4ce24d71b3376ce53b50cfe3eaaf3277dd727/lwjgl-openal-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/8e0615235116b9e4160dfe87bec90f5f6378bf72/lwjgl-openal-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/60a4ce24d71b3376ce53b50cfe3eaaf3277dd727/lwjgl-openal-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/87b8d5050e3adb46bb58fe1cb2669a4a48fce10d/lwjgl-openal-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/3353d0b2cac91b84088b01711d33cc403893450b/lwjgl-opengl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/e6c1eec8be8a71951b830a4d69efc01c6531900c/lwjgl-opengl-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/3353d0b2cac91b84088b01711d33cc403893450b/lwjgl-opengl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/65e956d3735a1abdc82eff4baec1b61174697d4b/lwjgl-opengl-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/3353d0b2cac91b84088b01711d33cc403893450b/lwjgl-opengl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/d32d833dcaa2f355a886eaf21f0408b5f03241d/lwjgl-opengl-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/37c2b604ec4a5ee356dd734dc8167a193e8874ed/lwjgl-stb-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/1d9facdf6541de114b0f963be33505b7679c78cb/lwjgl-stb-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/37c2b604ec4a5ee356dd734dc8167a193e8874ed/lwjgl-stb-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/a584ab44de569708871f0a79561f4d8c37487f2c/lwjgl-stb-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/37c2b604ec4a5ee356dd734dc8167a193e8874ed/lwjgl-stb-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/b5c874687b9aac1a936501d4ed2c49567fd1b575/lwjgl-stb-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/dcda55223f2f940654d222bf4371baa969c60bb9/lwjgl-tinyfd-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/a6697981b0449a5087c1d546fc08b4f73e8f98c9/lwjgl-tinyfd-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/dcda55223f2f940654d222bf4371baa969c60bb9/lwjgl-tinyfd-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/a88c494f3006eb91a7433b12a3a55a9a6c20788b/lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/dcda55223f2f940654d222bf4371baa969c60bb9/lwjgl-tinyfd-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/c336c84ee88cccb495c6ffa112395509e7378e8a/lwjgl-tinyfd-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e5949c7bbf4f839afe6d1a631e9b75f63c559e0/lwjgl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/a5ed18a2b82fc91b81f40d717cb1f64c9dcb0540/lwjgl-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e5949c7bbf4f839afe6d1a631e9b75f63c559e0/lwjgl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e9aca8c5479b520a2a7f0d542a118140e812c5e8/lwjgl-3.3.3-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e5949c7bbf4f839afe6d1a631e9b75f63c559e0/lwjgl-3.3.3-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/9e670718e050aeaeea0c2d5b907cffb142f2e58f/lwjgl-3.3.3-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.9/685553302df26ae3d157fee445416469eef29498/fabric-loader-0.16.9-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.9/7eaa23079ac1569963e488054db124c7eb984f05/fabric-loader-0.16.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/ca5088d615accaabd2aa956b10b236a4e75cfccb/annotations-23.0.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/94a832964241f634f3b4a872e55241678227f28b/jline-reader-3.20.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/8f15415b022a25b473e8e16c28ae913186ffb9c4/jline-reader-3.20.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.20.0/2ca86e8c3a4ba5d6a3cb629afd9180c58076609/jline-terminal-3.20.0-sources.jar" kind="lib" path="C:/Users/敖律风/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.20.0/d0ddcc708ddf527a3454c941b7b9225cc83a15ff/jline-terminal-3.20.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/.gradle/caches/fabric-loom/1.21.4/loom.mappings.1_21_4.layered+hash.2198-v2/mappings.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/code/event-horizon/build/classes/java/client">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/code/event-horizon/build/classes/kotlin/client">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/敖律风/code/event-horizon/build/resources/client">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="client,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>
